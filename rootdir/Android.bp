@@ -6,8 +6,8 @@
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.PL2.target.rc",
-    src: "etc/init.PL2.target.rc",
+    name: "init.C1N.target.rc",
+    src: "etc/init.C1N.target.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
