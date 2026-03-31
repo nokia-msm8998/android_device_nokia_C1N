@@ -41,5 +41,8 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit from the proprietary version
 include vendor/nokia/C1N/BoardConfigVendor.mk
