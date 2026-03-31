@@ -3,6 +3,10 @@ on boot
     chown system system /dev/goodix_fp
     chmod 666 /dev/goodix_fp
 
+    # Touch panel
+    chown system system /dev/ilitek_ctrl
+    chmod 644 /dev/ilitek_ctrl
+
 on post-fs-data
     # Fingerprint
     mkdir /data/system/fingerprint 0770 system system
